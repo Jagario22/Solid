@@ -50,7 +50,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>ua.com.alevel.nix.solid.Main</mainClass>
+                            <mainClass>nix.solid.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
