@@ -1,10 +1,12 @@
-package service.impl;
+package nix.solid.service.impl;
 
-import data.Patient;
-import data.Therapist;
-import service.DoctorResponsibilityService;
+import nix.solid.config.ObjectFactory;
+import nix.solid.data.Patient;
+import nix.solid.service.DoctorResponsibilityService;
 
 public class DoctorResponsibilityServiceImpl implements DoctorResponsibilityService {
+
+
 
     @Override
     public void startResponsibility(Patient patient) {

@@ -1,7 +1,7 @@
-package service.impl;
+package nix.solid.service.impl;
 
-import exception.DeviceCleanerException;
-import service.CleanerService;
+import nix.solid.exception.DeviceCleanerException;
+import nix.solid.service.CleanerService;
 
 public class EnvironmentCleanerService implements CleanerService {
     private boolean sterile = true;

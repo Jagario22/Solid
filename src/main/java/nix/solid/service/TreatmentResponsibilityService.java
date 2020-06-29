@@ -1,7 +1,7 @@
-package service;
+package nix.solid.service;
 
-import absrt.DoctorOfTreatment;
-import data.Patient;
+import nix.solid.data.absrt.DoctorOfTreatment;
+import nix.solid.data.Patient;
 
 public interface TreatmentResponsibilityService<L extends DoctorOfTreatment> {
     void startResponsibility(Patient patient);

@@ -1,4 +1,4 @@
-package data;
+package nix.solid.data;
 
 public class Cleaner {
 }

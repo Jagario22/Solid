@@ -1,6 +1,6 @@
-package service;
+package nix.solid.service;
 
-import data.Therapist;
+import nix.solid.data.Therapist;
 
 public interface DoctorResponsibilityService extends TreatmentResponsibilityService<Therapist> {
 }
